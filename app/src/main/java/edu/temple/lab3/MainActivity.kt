@@ -13,7 +13,15 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = GridLayoutManager(this, 3)
         recyclerView.adapter = ImageAdapter(
             arrayOf<Int>(
+                R.drawable.amazon,
+                R.drawable.assistant,
+                R.drawable.canvas,
+                R.drawable.chrome,
+                R.drawable.contacts,
+                R.drawable.facebook,
                 R.drawable.netflix,
+                R.drawable.mail,
+                R.drawable.spotify,
                 R.drawable.uber
             )
         )
