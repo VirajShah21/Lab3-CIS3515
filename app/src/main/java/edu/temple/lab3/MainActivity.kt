@@ -23,6 +23,18 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.mail,
                 R.drawable.spotify,
                 R.drawable.uber
+            ),
+            arrayOf(
+                "Amazon Shopping",
+                "Google Assistant",
+                "Instructure Canvas",
+                "Google Chrome",
+                "Contacts",
+                "Facebook",
+                "Netflix",
+                "EMail Client",
+                "Spotify Music",
+                "Uber Ride Share"
             )
         )
 
